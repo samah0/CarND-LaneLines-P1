@@ -29,7 +29,6 @@ My pipeline consisted of 6 steps. First, I perform color detection for white and
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by computing the slope of each line and using the slope's sign to determine if it belongs to the left  lane vs. right lane. My algorithm ignores vertical and horizental lines. After sparating line segments into two groups for left and right lanes then I fit a line for each group using numpy.polyfit() to find the best line that fits each group of points, then draw those lines on a mask and finally use  "weighted_img()" method to overlay the mask on the input image.
 
-[//]: # (Image References)
 
 ![alt text][image1]
 ![alt text][image2]
