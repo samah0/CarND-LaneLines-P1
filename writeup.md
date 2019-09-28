@@ -45,3 +45,8 @@ Another shortcoming could be, the current pipeline is fitting best line for each
 A possible improvement would be to use another color space like HSV or HSL to detect colors.
 
 Another potential improvement could be to fit a polynomial of degree 2 or fit a line between each consecutive line segments to make the pipeline more robust and automatically adjust for stright or curvy road. 
+
+### Resources
+
+- https://www.pyimagesearch.com/2014/08/04/opencv-python-color-detection/
+- Udacity/Introduction to Coputer Vision class.
